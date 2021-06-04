@@ -62,7 +62,7 @@ ESX.RegisterServerCallback('lifeinvaderRobbery:removeDataUSB', function(source, 
 		xPlayer.removeInventoryItem('usbstick_data', 1)
 		cb(true)
 	else
-		xPlayer.showNotification(_U('not_enough_data'))
+		xPlayer.showNotification(_U('Ei_Olet_Tarpeeksi_Dataa'))
 		cb(false)
 	end
 end)
